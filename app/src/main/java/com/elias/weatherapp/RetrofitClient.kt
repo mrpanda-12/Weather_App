@@ -1,9 +1,9 @@
 package com.elias.weatherapp
 
-import com.elias.weatherapp.data.apis.request.CurrentWeatherApi
-import com.elias.weatherapp.data.apis.request.DailyWeatherApi
-import com.elias.weatherapp.data.apis.request.HourlyWeatherApi
-import com.elias.weatherapp.data.apis.request.LocationApi
+import com.elias.weatherapp.data.api.request.CurrentWeatherApi
+import com.elias.weatherapp.data.api.request.DailyWeatherApi
+import com.elias.weatherapp.data.api.request.HourlyWeatherApi
+import com.elias.weatherapp.data.api.request.LocationApi
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

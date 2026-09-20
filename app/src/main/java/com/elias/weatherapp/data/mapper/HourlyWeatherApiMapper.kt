@@ -1,6 +1,6 @@
 package com.elias.weatherapp.data.mapper
 
-import com.elias.weatherapp.data.apis.response.HourlyWeatherApiResponse
+import com.elias.weatherapp.data.api.response.HourlyWeatherApiResponse
 import com.elias.weatherapp.data.model.domain.HourlyWeatherData
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter

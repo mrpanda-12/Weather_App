@@ -1,4 +1,4 @@
-package com.elias.weatherapp.data.apis.response
+package com.elias.weatherapp.data.api.response
 
 import com.google.gson.annotations.SerializedName
 

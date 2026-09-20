@@ -1,6 +1,6 @@
-package com.elias.weatherapp.data.apis.request
+package com.elias.weatherapp.data.api.request
 
-import com.elias.weatherapp.data.apis.response.HourlyWeatherApiResponse
+import com.elias.weatherapp.data.api.response.HourlyWeatherApiResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

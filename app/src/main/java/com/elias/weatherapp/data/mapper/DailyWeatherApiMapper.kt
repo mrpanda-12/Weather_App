@@ -1,6 +1,6 @@
 package com.elias.weatherapp.data.mapper
 
-import com.elias.weatherapp.data.apis.response.DailyWeatherApiResponse
+import com.elias.weatherapp.data.api.response.DailyWeatherApiResponse
 import com.elias.weatherapp.data.model.domain.DailyWeatherData
 import com.elias.weatherapp.getLanguageCode
 import java.time.LocalDate

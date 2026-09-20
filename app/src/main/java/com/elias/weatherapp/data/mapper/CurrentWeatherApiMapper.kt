@@ -1,6 +1,6 @@
 package com.elias.weatherapp.data.mapper
 
-import com.elias.weatherapp.data.apis.response.CurrentWeatherApiResponse
+import com.elias.weatherapp.data.api.response.CurrentWeatherApiResponse
 import com.elias.weatherapp.data.model.domain.CurrentWeatherData
 fun CurrentWeatherApiResponse.toWeatherData(): CurrentWeatherData? {
 
