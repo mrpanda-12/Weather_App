@@ -1,7 +1,8 @@
-package com.elias.weatherapp.ui.screens
+package com.elias.weatherapp.ui.screen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
@@ -134,7 +135,12 @@ fun ExpandableHourlyCard(
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable { onClick() },
+            .clickable(
+                indication = null,
+                interactionSource = remember { MutableInteractionSource() }
+            ) {
+                onClick()
+            },
         colors = CardDefaults.cardColors(
             containerColor = if (isExpanded)
                 MaterialTheme.colorScheme.primaryContainer

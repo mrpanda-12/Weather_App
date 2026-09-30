@@ -1,4 +1,4 @@
-package com.elias.weatherapp.ui.screens
+package com.elias.weatherapp.ui.screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

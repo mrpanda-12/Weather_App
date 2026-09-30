@@ -1,6 +1,6 @@
 package com.elias.weatherapp.ui
 
-import com.elias.weatherapp.ui.screens.WeekWeatherScreen
+import com.elias.weatherapp.ui.screen.WeekWeatherScreen
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.CircularProgressIndicator
@@ -16,10 +16,10 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.elias.weatherapp.ui.screens.DayWeatherScreen
-import com.elias.weatherapp.ui.screens.HomeScreen
-import com.elias.weatherapp.ui.screens.LocationInputScreen
-import com.elias.weatherapp.ui.screens.SettingsScreen
+import com.elias.weatherapp.ui.screen.DayWeatherScreen
+import com.elias.weatherapp.ui.screen.HomeScreen
+import com.elias.weatherapp.ui.screen.LocationInputScreen
+import com.elias.weatherapp.ui.screen.SettingsScreen
 import com.elias.weatherapp.viewmodel.WeatherAppViewModel
 
 object Routes {
